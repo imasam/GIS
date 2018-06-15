@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QgisDevClass</class>
+ <widget class="QMainWindow" name="QgisDevClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1098</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QgisDev</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1098</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProj">
+    <property name="title">
+     <string>项目管理</string>
+    </property>
+    <addaction name="actionNewProj"/>
+    <addaction name="actionOpenProj"/>
+    <addaction name="actionSaveProj"/>
+    <addaction name="actionSaveProjAs"/>
+   </widget>
+   <widget class="QMenu" name="menuMap">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>地图操作</string>
+    </property>
+    <addaction name="actionZoomIn"/>
+    <addaction name="actionZoomOut"/>
+    <addaction name="actionpan"/>
+    <addaction name="actionMeasure"/>
+   </widget>
+   <widget class="QMenu" name="menuLayer">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>图层管理</string>
+    </property>
+    <widget class="QMenu" name="menuAdd">
+     <property name="title">
+      <string>添加图层</string>
+     </property>
+     <addaction name="actionAddVector"/>
+     <addaction name="actionAddRaster"/>
+     <addaction name="actionAddWFS"/>
+     <addaction name="actionAddWCS"/>
+     <addaction name="actionAddWMS"/>
+    </widget>
+    <addaction name="actionShow"/>
+    <addaction name="separator"/>
+    <addaction name="actionIdentify"/>
+    <addaction name="menuAdd"/>
+    <addaction name="actionDelete"/>
+    <addaction name="actionAnnotation"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalysis">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>空间分析</string>
+    </property>
+    <addaction name="action_12"/>
+    <addaction name="action_13"/>
+    <addaction name="action_14"/>
+   </widget>
+   <addaction name="menuProj"/>
+   <addaction name="menuMap"/>
+   <addaction name="menuLayer"/>
+   <addaction name="menuAnalysis"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QDockWidget" name="layersManage">
+   <property name="minimumSize">
+    <size>
+     <width>201</width>
+     <height>136</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>201</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <widget class="QListWidget" name="layerList">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>201</width>
+       <height>371</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <action name="actionNewProj">
+   <property name="text">
+    <string>新建项目</string>
+   </property>
+  </action>
+  <action name="actionOpenProj">
+   <property name="text">
+    <string>打开项目</string>
+   </property>
+  </action>
+  <action name="actionSaveProj">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>保存项目</string>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地图放大</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地图缩小</string>
+   </property>
+  </action>
+  <action name="actionpan">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地图平移</string>
+   </property>
+  </action>
+  <action name="actionMeasure">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>地图测距</string>
+   </property>
+  </action>
+  <action name="actionIdentify">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>图元识别</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>删除图层</string>
+   </property>
+  </action>
+  <action name="actionAnnotation">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>图层标注</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>点状地物空间分析</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>线状地物空间分析</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>最短路径</string>
+   </property>
+  </action>
+  <action name="actionSaveProjAs">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>另存为项目</string>
+   </property>
+  </action>
+  <action name="actionCloseProj">
+   <property name="text">
+    <string>关闭项目</string>
+   </property>
+  </action>
+  <action name="actionShow">
+   <property name="text">
+    <string>显示图层窗口</string>
+   </property>
+  </action>
+  <action name="actionAddVector">
+   <property name="text">
+    <string>添加矢量图层</string>
+   </property>
+  </action>
+  <action name="actionAddWFS">
+   <property name="text">
+    <string>添加WFS图层</string>
+   </property>
+  </action>
+  <action name="actionAddRaster">
+   <property name="text">
+    <string>添加影像图层</string>
+   </property>
+  </action>
+  <action name="actionAddWMS">
+   <property name="text">
+    <string>添加WMS图层</string>
+   </property>
+  </action>
+  <action name="actionAddWCS">
+   <property name="text">
+    <string>添加WCS图层</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qgisdev.qrc"/>
+ </resources>
+ <connections/>
+</ui>

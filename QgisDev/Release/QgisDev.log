@@ -1,0 +1,62 @@
+﻿生成启动时间为 2017/12/31 20:18:30。
+     1>项目“D:\作业\C++\QgisDev\QgisDev\QgisDev.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\QgisDev.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing qgisdev.h...
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\OSGeo4W\apps\qgis\include /ID:\OSGeo4W\include /ID:\Qt\Qt4.8.6\include /I.\GeneratedFiles /I. /ID:\Qt\Qt4.8.6\include /I.\GeneratedFiles\Release /ID:\Qt\Qt4.8.6\include\QtCore /ID:\Qt\Qt4.8.6\include\QtGui /ID:\Qt\Qt4.8.6\include\QtXml /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D "GUI_EXPORT=_declspec(dllimport)" /D "ANALYSIS_EXPORT=_declspec(dllimport)" /D "CORE_EXPORT=_declspec(dllimport)" /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_qgisdev.cpp main.cpp qgisdev.cpp qgsidentifyresultsdialog.cpp
+         moc_qgisdev.cpp
+     1>d:\osgeo4w\apps\qgis\include\qgsabstractgeometryv2.h(15): warning C4005: “M_PI”: 宏重定义
+                 d:\qt\qt4.8.6\include\qtcore\../../src/corelib/kernel/qmath.h(261) : 参见“M_PI”的前一个定义
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsrubberband.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>d:\osgeo4w\apps\qgis\include\qgsabstractgeometryv2.h(15): warning C4005: “M_PI”: 宏重定义
+                 d:\qt\qt4.8.6\include\qtcore\../../src/corelib/kernel/qmath.h(261) : 参见“M_PI”的前一个定义
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsrubberband.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         qgisdev.cpp
+     1>d:\osgeo4w\apps\qgis\include\qgsabstractgeometryv2.h(15): warning C4005: “M_PI”: 宏重定义
+                 d:\qt\qt4.8.6\include\qtcore\../../src/corelib/kernel/qmath.h(261) : 参见“M_PI”的前一个定义
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsrubberband.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         qgsidentifyresultsdialog.cpp
+     1>d:\osgeo4w\apps\qgis\include\qgsabstractgeometryv2.h(15): warning C4005: “M_PI”: 宏重定义
+                 d:\qt\qt4.8.6\include\qtcore\../../src/corelib/kernel/qmath.h(261) : 参见“M_PI”的前一个定义
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsvectorlayer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\OSGeo4W\apps\qgis\include\qgsrubberband.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\作业\C++\QgisDev\Win32\Release\\QgisDev.exe" /NOLOGO /LIBPATH:D:\OSGeo4W\apps\qgis\lib /LIBPATH:D:\OSGeo4W\lib /LIBPATH:D:\Qt\Qt4.8.6\include /LIBPATH:D:\Qt\Qt4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib QtXml4.lib qgis_core.lib qgis_analysis.lib qgis_gui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\QgisDev.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\作业\C++\QgisDev\Win32\Release\QgisDev.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\作业\C++\QgisDev\Win32\Release\QgisDev.lib" /MACHINE:X86 Release\qrc_qgisdev.obj
+         Release\moc_qgisdev.obj
+         Release\moc_qgsidentifyresultsdialog.obj
+         Release\moc_qgsmaptoolannotation.obj
+         Release\moc_qgsmeasuredialog.obj
+         Release\moc_qgsmeasuretool.obj
+         Release\moc_qgstextannotationdialog.obj
+         Release\main.obj
+         Release\qgisdev.obj
+         Release\qgsidentifyresultsdialog.obj
+         Release\qgsmaptoolannotation.obj
+         Release\qgsmaptoolidentifyaction.obj
+         Release\qgsmeasuredialog.obj
+         Release\qgsmeasuretool.obj
+         Release\qgstextannotationdialog.obj
+         LINK : 没有找到 D:\作业\C++\QgisDev\Win32\Release\\QgisDev.exe 或上一个增量链接没有生成它；正在执行完全链接
+         QgisDev.vcxproj -> D:\作业\C++\QgisDev\Win32\Release\QgisDev.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\作业\C++\QgisDev\Win32\Release\\QgisDev.exe;#1" /manifest Release\QgisDev.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\QgisDev.unsuccessfulbuild”。
+         正在对“Release\QgisDev.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\作业\C++\QgisDev\QgisDev\QgisDev.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.61
